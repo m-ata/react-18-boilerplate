@@ -1,0 +1,32 @@
+{
+  "name": "react-18-boilerplate",
+  "version": "1.0.0",
+  "description": "React 18 boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-ata/react-18-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "vite"
+  ],
+  "author": "Muhammad Ata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-ata/react-18-boilerplate/issues"
+  },
+  "homepage": "https://github.com/m-ata/react-18-boilerplate#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}
