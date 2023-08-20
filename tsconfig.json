@@ -1,22 +1,21 @@
 {
-    "compilerOptions": {
-      "allowSyntheticDefaultImports": true,
-      "jsx": "react",
-      "lib": [
-        "es6",
-        "dom"
-      ],
-      "module": "commonjs",
-      "noEmit": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "paths": {
-        "@/*": ["./src/*"]
-      },
-      "strictNullChecks": true,
-      "target": "esnext"
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"]
     },
-    "include": [
-      "./src"
-    ]
-  }
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "target": "esnext",
+    "types": ["node"]
+  },
+  "include": ["./src"]
+}
